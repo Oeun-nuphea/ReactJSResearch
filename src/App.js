@@ -1,10 +1,15 @@
 import './App.css';
-
+import Footer from './Footer'
+import Navbar from './Navbar'
 function App() {
   return (
     <div className="App">
-      <h1>Hi Python for fun</h1>
-      <p>Not sex</p>
+      <header>
+        <Navbar/>
+      </header>
+      <footer>
+        <Footer/>
+      </footer>
     </div>
   );
 }
